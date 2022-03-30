@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Actividad 3 - Formularios</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="text/javascript" src="javascript/javs.js"></script>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <section>
+        <fieldset>
+          <legend>Pide tú pizza!!</legend>
+          <form action="URL" method="post" id="formulario">
+            <label>Nombre: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Escribe tu nombre...."
+            />
+            <br />
+            <label>Dirección: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="direc"
+              id="direc"
+              placeholder="Escribe tu dirección..."
+            />
+            <br />
+            <label>Teléfono: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="telf"
+              id="telf"
+              placeholder="91*******"
+            />
+            <br />
+            <label>E-mail: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="mail"
+              id="mail"
+              placeholder="Introduce@tumail.com"
+            />
+            <br />
+            <label>Tamaño de la Pizza: </label>
+            <br />
+            <input
+              class="inputRadio"
+              type="radio"
+              name="size"
+              id="size_s"
+              value="Pequeña"
+            />Pequeña
+            <input
+              class="inputRadio"
+              type="radio"
+              name="size"
+              id="size_m"
+              value="Mediana"
+            />Mediana
+            <input
+              class="inputRadio"
+              type="radio"
+              name="size"
+              id="size_b"
+              value="Grande"
+            />Grande
+            <br />
+            <label>Ingredientes: </label>
+            <br />
+            <input
+              class="inputCheck"
+              type="checkbox"
+              name="york"
+              id="york"
+              value="york"
+            />York
+            <input
+              class="inputCheck"
+              type="checkbox"
+              name="bacon"
+              id="bacon"
+              value="bacon"
+            />Bacon
+            <input
+              class="inputCheck"
+              type="checkbox"
+              name="champ"
+              id="champ"
+              value="champ"
+            />Champiñón
+            <input
+              class="inputCheck"
+              type="checkbox"
+              name="pina"
+              id="pina"
+              value="pina"
+            />Piña
+            <br />
+            <div class="btns">
+              <input class="submit" type="submit" value="¡Procesar pedido!" />
+              <input class="reset" type="reset" value="Empezar otra vez" />
+            </div>
+          </form>
+        </fieldset>
+      </section>
+    </div>
+  </body>
+</html>

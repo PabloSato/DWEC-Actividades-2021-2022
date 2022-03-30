@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'open_sansbold';
+  src: url('Tipo_Sansycogoco/opensans-bold-webfont.woff2') format('woff2'),
+       url('Tipo_Sansycogoco/opensans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url('opensans-bolditalic-webfont.woff2') format('woff2'),
+       url('opensans-bolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url('opensans-extrabold-webfont.woff2') format('woff2'),
+       url('opensans-extrabold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sansextrabold_italic';
+  src: url('opensans-extrabolditalic-webfont.woff2') format('woff2'),
+       url('opensans-extrabolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url('opensans-italic-webfont.woff2') format('woff2'),
+       url('opensans-italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url('opensans-light-webfont.woff2') format('woff2'),
+       url('opensans-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'open_sanslight_italic';
+  src: url('opensans-lightitalic-webfont.woff2') format('woff2'),
+       url('opensans-lightitalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'open_sansregular';
+  src: url('Tipo_Sansycogoco/opensans-regular-webfont.woff2') format('woff2'),
+       url('Tipo_Sansycogoco/opensans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url('opensans-semibold-webfont.woff2') format('woff2'),
+       url('opensans-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'open_sanssemibold_italic';
+  src: url('opensans-semibolditalic-webfont.woff2') format('woff2'),
+       url('opensans-semibolditalic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cocogooseregular';
+  src: url('cocogoose_pro-trial-webfont.woff2') format('woff2'),
+       url('cocogoose_pro-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cocogoose_prothin';
+  src: url('cocogoose_pro_thin-trial-webfont.woff2') format('woff2'),
+       url('cocogoose_pro_thin-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+::placeholder{
+  color: #e6e6fa;
+}
+body {
+  background-color:	#e6e6fa ;
+}
+#contenedor {
+  width: 1200px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+  min-height: 50px;
+}
+section {
+  width: 90%;
+  height: 1050px;
+  padding: 20px;
+  font-size: 14px;
+  font-family: "open_sansregular";
+}
+.imgs {
+  width: 45%;
+  padding: 2%;
+}
+label {
+  font-family: "open_sansbold";
+  width: 20%;
+  color: #5a2b81;
+}
+.inputTxt {
+  width: 40%;
+  color: white;
+  font-family: "open_sansregular";
+  padding: 0.6%;
+  margin: 2%;
+  border-radius: 3px;
+  background-color: 	#5a2b81;
+}
+
+.inputRadio {
+  margin: 1.8%;
+}
+.inputCheck {
+  margin: 3%;
+}
+.select {
+  width: max-content;
+}
+.textArea {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e6e6fa;
+  width: 100%;
+  padding: 3px 5px;
+  margin: 2%;
+  height: 150px;
+  background-color: #5a2b81;
+  box-shadow: inset 1px 1px 2px 	#484847;
+
+}
+.textArea:hover {
+  background-color: #521c78;
+}
+.submit {
+  position: relative;
+  width: 16%;
+  margin-left: 30%;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.submit:hover {
+  background-color: 	#5a2b81;
+  color: white;
+  border: 2px solid white;
+}
+.reset {
+  position: relative;
+  width: 15%;
+  margin-left: 10%;
+  margin-top: 2%;
+  padding: 2%;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 500ms;
+}
+.reset:hover {
+  background-color: 	#5a2b81;
+  color: white;
+  border: 2px solid white;
+}
+section fieldset {
+  width: 60%;
+  height: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  border-color: 	#521c78;
+}
+section fieldset form {
+  margin: 0 auto;
+  width: 70%;
+}
+footer {
+  margin-top: 35px;
+  width: 100%;
+  min-height: 50px;
+}
+legend {
+  font-size: 1.5em;
+  padding: 0 10px;
+  color: 	#521c78;
+  font-family: "open_sansbold";
+}

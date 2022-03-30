@@ -1,0 +1,36 @@
+{
+  "PIZZA": {
+    "SIZE": [
+      {
+        "TAM": "Pequeña",
+        "PRECIO": 5
+      },
+      {
+        "TAM": "Mediana",
+        "PRECIO": 10
+      },
+      {
+        "TAM": "Grande",
+        "PRECIO": 15
+      }
+    ],
+    "INGRE": [
+      {
+        "NOMBRE": " York",
+        "PRECIO": 1
+      },
+      {
+        "NOMBRE": " Bacon",
+        "PRECIO": 2
+      },
+      {
+        "NOMBRE": " Piña",
+        "PRECIO": 30
+      },
+      {
+        "NOMBRE": " Champión",
+        "PRECIO": 3
+      }
+    ]
+  }
+}

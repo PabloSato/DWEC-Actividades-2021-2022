@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Actividad 4 - AJAX</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <script type="application/javascript" src="javascript/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="javascript/ConJquery.js"></script>
+    <!--<script type="application/javascript" src="javascript/ajax.js"></script>-->
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div id="contenedor">
+      <section>
+        <fieldset>
+          <legend>Pide tú pizza!!</legend>
+          <form action="" method="post" id="formulario">
+            <label>Nombre: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="nombre"
+              id="nombre"
+              placeholder="Escribe tu nombre...."
+            />
+            <br />
+            <label>Dirección: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="direc"
+              id="direc"
+              placeholder="Escribe tu dirección..."
+            />
+            <br />
+            <label>Teléfono: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="telf"
+              id="telf"
+              placeholder="91*******"
+            />
+            <br />
+            <label>E-mail: </label>
+            <input
+              class="inputTxt"
+              type="text"
+              name="mail"
+              id="mail"
+              placeholder="Introduce@tumail.com"
+            />
+            <br />
+            <label>Tamaño de la Pizza: </label>
+            <br />
+            <div id="tam"></div>
+            <br />
+            <label>Ingredientes: </label>
+            <br />
+            <div id="ingre"></div>
+            <br />
+
+              <div class="btns">
+                <input class="submit" type="submit" value="¡Procesar pedido!" id="enviar" />
+                <input class="reset" type="reset" value="Empezar otra vez" id="reset"/>
+              </div>
+          </form>
+
+          <div class="contenedorBTNS">
+            <div class="btns">
+              <button id="sacarPrecio" class="submit">¡Sacar Precio!</button>
+              <button id="refrescar" class="reset">Refrescar</button>
+            </div>
+            <div id="pedido">
+              <p class="SalidaPrecio" id="parrafo"></p>
+            </div>
+          </div>
+        </fieldset>
+
+      </section>
+    </div>
+  </body>
+</html>
